@@ -6,3 +6,6 @@
 }
 /* can't touch this 🔨 */
 
+.grid-container {
+  display: grid;
+}
