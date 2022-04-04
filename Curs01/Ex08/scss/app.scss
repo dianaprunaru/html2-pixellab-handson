@@ -12,6 +12,20 @@
   background-color: brown;
 }
 
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
+}
+
 .circle-red {
   @extend .circle;
 
@@ -28,4 +42,22 @@
   @extend .circle;
 
   background-color: blue;
+}
+
+.square-magenta {
+  @extend .square;
+
+  background-color: magenta;
+}
+
+.square-peru {
+  @extend .square;
+
+  background-color: peru;
+}
+
+.square-purple {
+  @extend .square;
+
+  background-color: purple;
 }
