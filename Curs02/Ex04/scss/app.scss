@@ -15,3 +15,20 @@
     border-width: #{$i}px;
   }
 }
+
+@for $i from 1 to 6 {
+  .box-0#{$i} {
+    width: #{150 + $i * 5}px;
+    height: #{150 + $i * 5}px;
+  }
+}
+
+@for $i from 1 through 5 {
+  .box-#{$i}0 {
+    @if $i % 2 != 0 {
+      background-color: gray;
+    } @else {
+      background-color: white;
+    }
+  }
+}

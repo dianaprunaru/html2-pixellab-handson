@@ -1,17 +1,67 @@
-/* Error: Undefined variable.
- *    ,
- * 15 | @each $name, $color in $colors {
- *    |                        ^^^^^^^
- *    '
- *   scss\app.scss 15:24  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 15 \2502  @each $name, $color in $colors {\d\a    \2502                         ^^^^^^^\a    \2575 \a   scss\\app.scss 15:24  root stylesheet";
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
 }
+
+.btn-main {
+  color: red;
+}
+
+.btn-primary {
+  color: blue;
+}
+
+.btn-secondary {
+  color: green;
+}
+
+.btn-tertiary {
+  color: yellow;
+}
+
+.btn-neutral {
+  color: gray;
+}
+
+.btn-bg-main {
+  background-color: red;
+}
+
+.btn-bg-primary {
+  background-color: blue;
+}
+
+.btn-bg-secondary {
+  background-color: green;
+}
+
+.btn-bg-tertiary {
+  background-color: yellow;
+}
+
+.btn-bg-neutral {
+  background-color: gray;
+}
+
+.text-main {
+  color: red;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.text-secondary {
+  color: green;
+}
+
+.text-tertiary {
+  color: yellow;
+}
+
+.text-neutral {
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
