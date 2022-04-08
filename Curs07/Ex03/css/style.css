@@ -17,16 +17,19 @@ font-weight: bold;
 
 @keyframes blink {
   0% {
-    opacity: 1;
+    /* opacity: 1; */
+    color: white;
+
   }
 
   100% {
-    opacity: 0;
+    /* opacity: 0; */
+    color: black;
   }
 }
 
 body > div:first-child span {
-  animation: blink 1.2s linear infinite alternate;
+  animation: blink 1.8s linear infinite alternate;
 }
 
 

@@ -48,3 +48,40 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-02 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+/* oare aici cerinta trebuia sa fie pentru latura din dreapta a cutiei? */
+
+.flex-container-04 {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-06 {
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
