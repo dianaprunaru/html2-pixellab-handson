@@ -60,3 +60,14 @@
     grid-template-columns: 320px 25px 1fr;
   }
 }
+
+@media (min-width: 521px) {
+  .grid-container {
+    grid-template-areas:
+      'header'
+      'sidebar'
+      'content'
+      'footer';
+    grid-template-columns: 320px 25px 1fr;
+  }
+}

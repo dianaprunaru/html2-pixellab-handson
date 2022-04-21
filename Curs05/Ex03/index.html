@@ -12,12 +12,16 @@
     content="ie=edge"
   >
   <title>Bootstrap Grid</title>
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
 </head>
 
 <body>
 
   <div class="container">
-    <div class="row">
+    <div class="row flex-row-reverse">
       <div class="col">Last</div>
       <div class="col">Second</div>
       <div class="col">First</div>
@@ -25,17 +29,17 @@
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col">5</div>
-      <div class="col">4</div>
-      <div class="col">3</div>
-      <div class="col">2</div>
-      <div class="col">1</div>
+    <div class="row flex-row-reverse">
+      <div class="col order-1">5</div>
+      <div class="col order-2">4</div>
+      <div class="col order-3">3</div>
+      <div class="col order-4">2</div>
+      <div class="col order-5">1</div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row">
+    <div class="row flex-row-reverse">
       <div class="col">10</div>
       <div class="col">20</div>
       <div class="col">30</div>
