@@ -187,12 +187,46 @@
                   type="button"
                   title="Editeaza"
                   class="btn btn-primary btn-sm"
+                  style="padding: 2px;"
                 >Editeaza</button>
 
                 <button
                   type="button"
                   title="Sterge"
                   class="btn btn-danger btn-sm"
+                  style="padding: 2px;"
+                >Sterge</button>
+              </li>
+
+              <li>200 g ceapa
+                <button
+                  type="button"
+                  title="Editeaza"
+                  class="btn btn-primary btn-sm"
+                  style="padding: 2px;"
+                >Editeaza</button>
+
+                <button
+                  type="button"
+                  title="Sterge"
+                  class="btn btn-danger btn-sm"
+                  style="padding: 2px;"
+                >Sterge</button>
+              </li>
+
+              <li>200 g ardei gras
+                <button
+                  type="button"
+                  title="Editeaza"
+                  class="btn btn-primary btn-sm"
+                  style="padding: 2px;"
+                >Editeaza</button>
+
+                <button
+                  type="button"
+                  title="Sterge"
+                  class="btn btn-danger btn-sm"
+                  style="padding: 2px;"
                 >Sterge</button>
               </li>
             </ul>
@@ -223,23 +257,70 @@
               >
             </div>
 
-            <div class="text-end">
-              <button
-                type="button"
-                class="btn btn-outline-danger"
-                title="Reseteaza"
-              >Reseteaza</button>
+            <div class="input-group">
+              <label
+                for="subtitle-step-name"
+                class="input-group-text"
+              >Subtitlu pas *</label>
+
+              <input
+                type="text"
+                name="subtitle-step-name"
+                id="subtitle-step-name"
+                class="form-control"
+                placeholder="Subtitlu pas *"
+                required
+              >
             </div>
-          </div>
+
+            <div class="input-group">
+              <label
+                for="step-description"
+                class="input-group-text"
+              >Descriere pas *</label>
+
+              <textarea
+                name="step-description"
+                id="step-description"
+                cols="30"
+                rows="8"
+                class="form-control"
+                required
+                placeholder="Descriere pas *"
+              ></textarea>
+            </div>
+            <div class="col-12 col-lg-12 d-flex flex-column gap-2">
+              <div class="text-end">
+                <button
+                  type="button"
+                  class="btn btn-outline-danger"
+                  title="Reseteaza"
+                >Reseteaza</button>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  title="Adauga pas"
+                >Adauga pas</button>
+              </div>
+            </div>
         </section>
       </fieldset>
     </main>
 
     <footer class="container text-center mt-5">
       <button
+        type="button"
+        title="Reseteaza tot"
+        class="btn btn-outline-danger btn-lg"
+        style="padding: 2px;"
+      >Reseteaza tot</button>
+
+      <button
         type="submit"
         title="Trimite Reteta"
         class="btn btn-primary btn-lg"
+        style="padding: 2px;"
       >Trimite Reteta</button>
     </footer>
   </form>
